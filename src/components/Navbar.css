@@ -1,0 +1,39 @@
+.navbar {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    background-color: #343a40; /* Dark background */
+    padding: 15px 20px; /* Padding */
+    color: #ffffff; /* White text */
+  }
+  
+  .navbar-brand h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for title */
+  }
+  
+  .navbar-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar-links li {
+    margin-left: 20px; /* Space between links */
+  }
+  
+  .navbar-links a {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* White text color */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .navbar-links a:hover {
+    color: #00bcd4; /* Change color on hover */
+  }
+  
+  a{
+    text-decoration: none;
+    color: #ffffff;
+  }

@@ -1,0 +1,62 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h2 {
+    font-size: 2rem;
+    color: #3a3a3a;
+    font-weight: 600;
+  }
+  
+  .project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .project-cards-container .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 350px;
+  }
+  
+  .project-cards-container .card h4 {
+    color: #4f78f7;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-cards-container .card p {
+    color: #555;
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .earnings-overview {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .earnings-overview h3 {
+    font-size: 1.8rem;
+    color: #4f78f7;
+    margin-bottom: 20px;
+  }
+  
+  
